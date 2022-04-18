@@ -16,23 +16,26 @@
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
         <nav class="nav-page">
           <a href="./index.html" class="logo"
-            >Web<span class="logo-color-black">Studio</span></a
+            >Web<span class="logo_color_black">Studio</span></a
           >
-          <ul class="list">
-            <li class="item">
-              <a href="./index.html" class="link active current">Студия</a>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="./index.html" class="nav-list__link active current"
+                >Студия</a
+              >
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="nav-list__item">
+              <a href="./portfolio.html" class="nav-list__link">Портфолио</a>
             </li>
-            <li class="item">
-              <a href="#" class="link">Контакты</a>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -60,13 +63,13 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-btn" data-modal-open>
+          <button type="button" class="hero__btn" data-modal-open>
             Заказать услугу
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="modal-btn" data-modal-close>
-                <svg class="modal-close-icon" width="11" height="11">
+              <button type="button" class="modal__btn" data-modal-close>
+                <svg class="modal__close-icon" width="11" height="11">
                   <use href="./images/sprite.svg#close-icon"></use>
                 </svg>
               </button>
@@ -151,7 +154,7 @@
         <div class="container">
           <h2 class="hide">Наши сильные стороны</h2>
           <ul class="advantages-list">
-            <li class="advantages-item">
+            <li class="advantages-list__item">
               <div class="icon-wrapper">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-antenna"></use>
@@ -163,7 +166,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="advantages-item">
+            <li class="advantages-list__item">
               <div class="icon-wrapper">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-clock"></use>
@@ -175,7 +178,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="advantages-item">
+            <li class="advantages-list__item">
               <div class="icon-wrapper">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-diagram"></use>
@@ -187,7 +190,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="advantages-item">
+            <li class="advantages-list__item">
               <div class="icon-wrapper">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
