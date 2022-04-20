@@ -101,13 +101,7 @@
   position: relative;
   overflow: hidden;
 }
-.our-projects {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
-  color: var(--main-color);
-}
+
 .our-projects-name {
   font-weight: normal;
   font-size: 16px;
@@ -136,3 +130,10 @@
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+/*.our-projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}*/
